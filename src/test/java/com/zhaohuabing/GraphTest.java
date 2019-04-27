@@ -66,6 +66,7 @@ public class GraphTest {
     graph.addEdge("B", "C");
     graph.addEdge("B", "D");
     graph.addEdge("C", "D");
+    graph.addEdge("C", "E");
     graph.addEdge("D", "E");
     graph.addEdge("D", "F");
     return graph;
